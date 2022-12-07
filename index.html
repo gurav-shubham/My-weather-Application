@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>JavaScript-Weather-Application</title>
+</head>
+<body>
+		<div class="container">
+			<div class="main-section">
+				<head>
+					<h2 id="unique">International Weather Applicaation</h2>
+				</head>
+				<div class="section-1">
+					<form action="#">
+						<input type="text" id="inputBox" name="inputBox" placeholder="Search For City" autocomplete="off">
+						<input type="submit" value="Submit" id="submitBtn">
+					</form>
+				</div>
+				<div class="section-2">
+					<p><span id="nameOfCity">Dhaka</span> <span id="NameOfDay">BD</span></p>
+					<h2 id="celcius"><span id="resiveCelcious">15</span>&deg;C</h2>
+					<div class="showing-weather-icon">
+						<img id="imageIcon" src="image/haze-weather.png" alt="image is not found" class="defult-design">
+						<img id="cloudsWetherIcon" src="image/clouds-weather.png" alt="image is not found" class="defult-design">
+						<img id="clearWeather" src="image/clear-weather.png" alt="image is not found" class="defult-design">
+					</div>
+					<div class="decription-part">
+						<p id="description">CLEAR SKY</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
