@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=Lobster&family=Open+Sans&family=PT+Serif&family=Quicksand&family=Roboto&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container 
+{
+	margin: 20px 0 0 420px;	
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.main-section {
+    width: 690px;
+    border: 1px solid #42424245;
+    border-radius: 5px;
+    background: #efefef;
+}
+
+#unique 
+{
+    margin: 0 0 8px 0;
+    padding: 14px;
+    color: #fff;
+    background: #000;
+    font-size: 35px;
+    text-align: center;
+    
+}
+/*section one start here*/
+.section-1 
+{
+	margin-left: 8px;
+}
+
+form input[type="text"] {
+    width: 239px;
+    padding: 6px 9px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 18px;
+    background: #efefefef;
+}
+
+::placeholder 
+{
+	font-family: 'Cormorant Garamond', serif;
+	color : #000;
+	background: #efefefef;
+}
+
+form input[type="submit"] {
+    margin: 0px 0 0 11px;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    background: #ff0000d4;
+    border-radius: 4px;
+    border: 1px solid #ff0000d4;
+}
+form input[type="submit"]:focus 
+{
+	border: 1px solid #efefef;
+}
+/*Section 2 start here*/
+.section-2 {
+    width: 281px;
+    margin: 18px 4px 18px 8px;
+    padding: 6px 10px;
+    border: 1px solid #9e9e9eba;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px #00000045;
+    background: #fff;
+}
+/*location*/
+
+#nameOfCity {
+    margin: 0 15px 0 0;
+    font-size: 20px;
+    color: #263238e3;
+}
+
+#NameOfDay {
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    background: #e65100;
+}
+/*celcious design start here*/
+#celcius {
+    font-size: 45px;
+    font-family: serif;
+}
+
+/*weather icon design start here */
+.showing-weather-icon h2 {
+    margin: 0;
+    font-size: 40px;
+}
+/*description start here*/
+#description 
+{
+	margin-bottom: 10px;
+	color: #263238e3;
+}
+
+/*weather icon desing start here*/
+.defult-design{
+    width: 50px;
+}
